@@ -2458,16 +2458,8 @@
             }
         }
 
-        // Add special celebration on first gate click
-        let firstGateClick = true;
-        seeDetailsButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                if (firstGateClick) {
-                    createConfetti();
-                    firstGateClick = false;
-                }
-            });
-        });
+        
     </script>
 </body>
 </html>
+
